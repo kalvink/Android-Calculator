@@ -314,9 +314,7 @@ public class MainActivity extends AppCompatActivity {
                         numberArea.setText(temp2);
                     }
                     equalbutton = false;
-
                 }
-
             }
         });
         final Button buttondivision = findViewById(R.id.buttondivision);
@@ -333,9 +331,7 @@ public class MainActivity extends AppCompatActivity {
                         numberArea.setText(temp2);
                     }
                     equalbutton = false;
-
                 }
-
             }
         });
         // DECIMAL SIGN
