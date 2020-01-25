@@ -1,4 +1,4 @@
-# AndroidCalculator
+# Android-Calculator
 Basic Calculator coded in Java converted into an Android app by Kalvin Kao
 
 Functionality
