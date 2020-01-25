@@ -1,4 +1,4 @@
-package com.kk.calculator;
+package com.kalvinkao.calculator;
 
 public class Functions extends MainActivity {
 

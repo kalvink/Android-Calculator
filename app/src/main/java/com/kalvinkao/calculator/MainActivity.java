@@ -1,4 +1,4 @@
-package com.kk.calculator;
+package com.kalvinkao.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 

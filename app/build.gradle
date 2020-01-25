@@ -1,20 +1,30 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            storeFile file('D:\\Projects\\Android\\Keystore\\keystore.jks')
+            storePassword 'pmjcna1ee321'
+            keyAlias = 'key0'
+            keyPassword 'pmjcna1ee321'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.kk.calculator"
+        applicationId 'com.kalvinkao.calculator'
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [:]
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }
